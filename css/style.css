@@ -1,0 +1,73 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.wrap1{
+
+    background-image: url("../img/bg1.png");
+    
+    background-size: cover;
+    width: 100%!important;
+ 
+    
+}
+
+
+.wrap2{
+
+    background-image: url("../img/wp2.png");
+    
+    background-size: cover;
+    width: 100%!important;
+    height: 630px;
+    
+ 
+    
+}
+
+.wrap3{
+
+    background-image: url("../img/wp3.png");
+    
+    background-size: cover;
+    width: 100%!important;
+   
+    
+ 
+    
+}
+
+.wrap4{
+
+    background-image: url("../img/wpbg4.png");
+    
+    background-size: cover;
+    width: 100%!important;
+    background-position: center;
+   
+    
+ 
+    
+}
+
+/* Responsive  */
+
+@media only screen and ( max-width:425px){
+
+     .wrap1{
+    background-size: contain;
+    }
+    .wrap2{
+        background-size: contain;
+        }
+        .wrap3{
+            background-size: contain;
+            }
+            .wrap4{
+                background-size: contain;
+                }
+
+    
+
+}
